@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Percabangan switch/case</title>
+</head>
+<body>
+    <script>
+
+        var jawab = prompt("Siapa Teman?");
+        var nama = "";
+        
+        switch(jawab){
+            case "wandi":
+                nama = "wandi";
+                break;
+            case "affan":
+                nama = "affan";
+                break;
+            case "yusuf":
+                nama = "yusuf";
+                break;
+            case "4":
+                nama = "Minyak Goreng";
+                break;
+            case "5":
+                nama = "Uang Rp 50.000";
+                break;
+            default:
+                document.write("<p>Opps! anda salah pilih</p>");
+        }
+
+        if(nama === ""){
+            document.write("<p>Nama Temanmu Salah</p>");
+        } else {
+            document.write("<h2>Iya Benar Temanmu adalah  " + nama + "</h2>");
+        }
+    </script>
+</body>
+</html>
