@@ -1,0 +1,1 @@
+document.write('Ini FIle JS Coba')
